@@ -13,10 +13,6 @@ variable "subnet_id" {
   description = "Subnet in which EC2 will launch"
 }
 
-variable "env" {
-  type = string
-}
-
 variable "user_data_template" {
   type        = string
   description = "Path to user data template"
