@@ -11,8 +11,3 @@ variable "subnet_cidrs" {
   type        = list(string)
   description = "List of subnet CIDRs"
 }
-
-variable "env" {
-  type        = string
-  description = "Environment"
-}
