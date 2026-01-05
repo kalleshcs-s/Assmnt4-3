@@ -1,0 +1,23 @@
+terraform-project/
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── README.md
+│   └── ec2/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── user_data.sh.tpl
+│       └── README.md
+├── envs/
+│   ├── dev/
+│   │   ├── main.tf
+│   │   └── terraform.tfvars
+│   └── prod/
+│       ├── main.tf
+│       └── terraform.tfvars
+├── provider.tf
+├── variables.tf
+└── outputs.tf
